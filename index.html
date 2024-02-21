@@ -59,6 +59,24 @@
             box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
             padding: 20px 0 30px 0;
         }
+.my {
+            /*height: 40%;
+            width: 15%;
+            object-fit: cover;*/ /* This property maintains the aspect ratio and covers the entire container */
+            max-width: 15%;
+            max-height: 40%;
+            width: 100%; /* Ensures the image takes up 100% of its container width */
+            height: auto;
+            border-radius: 50%;
+            
+        }
+        .my1 {
+            max-height: 40%;
+            max-width: 20%;
+            width: 100%; /* Ensures the image takes up 100% of its container width */
+            height: auto;
+        }
+        
     </style>
 </head>
 
@@ -67,10 +85,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
      
-            <img src=" assets/img/passport.png" style="
-                         height: 38%;
-                         width: 14%;
-                         border-radius: 50%;"  />
+            <img class="my" src=" assets/img/passport.png"  />
       
 
 
@@ -107,7 +122,7 @@
 
                 <div class="row no-gutters">
                     <!--<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>-->
-                    <div class="col-xl-14 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+                    <div class="col-xl-14 ps-4 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
                         <div class="content d-flex flex-column justify-content-center">
                             <h3>About</h3>
                             
@@ -172,10 +187,7 @@
                 </div> 
                 <div class="row">
                     <div class="col-1"></div>
-                        <img src=" assets/img/bharat_financial_inclusion_limited.jpg" style="
-                         height: 40%;
-                         width: 15%;
-                        " />
+                        <img  class="my1" src=" assets/img/bharat_financial_inclusion_limited.jpg" />
 
                         <div class="col-lg-8">
                             <br />
@@ -184,6 +196,8 @@
                         </div>
 
                     </div>
+                                <div class="row"><br/></div>
+
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-9">
